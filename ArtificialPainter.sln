@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtificialPainter.Core", "ArtificialPainter.Core\ArtificialPainter.Core.csproj", "{5C583306-11D1-4A31-9645-CAB35BDDF23D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Editor", "Editor", "{FC7D102D-4856-41CB-AD47-5ADBA9B98F4C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtificialPainter.Wpf", "ArtificialPainter.Wpf\ArtificialPainter.Wpf.csproj", "{088409BB-DCE7-4F76-95B5-F72A43612A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C583306-11D1-4A31-9645-CAB35BDDF23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C583306-11D1-4A31-9645-CAB35BDDF23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C583306-11D1-4A31-9645-CAB35BDDF23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C583306-11D1-4A31-9645-CAB35BDDF23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088409BB-DCE7-4F76-95B5-F72A43612A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088409BB-DCE7-4F76-95B5-F72A43612A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088409BB-DCE7-4F76-95B5-F72A43612A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088409BB-DCE7-4F76-95B5-F72A43612A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32683D29-210E-4C52-99BC-5F3AF86153F7}
+	EndGlobalSection
+EndGlobal
